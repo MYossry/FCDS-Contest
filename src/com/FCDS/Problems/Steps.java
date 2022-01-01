@@ -1,12 +1,14 @@
 package com.FCDS.Problems;
 
-public class Steps extends Problem{
+import com.FCDS.Utils.Problem;
+
+public class Steps extends Problem {
     @Override
     public void run() {
         // write your code
         // to take input use inputScanner Variable which already declared in Problem class
-        int a = inputScanner.nextInt();
-        System.out.println(a/2 + a%2);
+        // for example int a = inputScanner.nextInt();
+
     }
     public static void main(String[] args)
     {
